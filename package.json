@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "start": "npm-run-all -p build:frontend start:backend start:testServer",
+    "build:frontend": "webpack",
+    "start:backend": "node backend/server.mjs",
+    "start:testServer": "node frontend/src/dev/testServer.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "",
+    "@babel/preset-env": "",
+    "@babel/preset-react": "",
+    "babel-loader": "",
+    "eslint": "",
+    "eslint-plugin-react": "",
+    "webpack": "",
+    "webpack-cli": ""
+  },
+  "dependencies": {
+    "body-parser": "",
+    "config": "",
+    "express": "",
+    "npm-run-all": "",
+    "pg": "",
+    "prop-types": "",
+    "react": "",
+    "react-devtools": "",
+    "react-dom": "",
+    "superagent": ""
+  }
+}

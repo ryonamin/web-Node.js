@@ -1,0 +1,14 @@
+{
+  "testServer":{
+    "port":"3000"
+  },
+  "PostgreSQL":{
+    "config":{
+      "host": "localhost",
+      "user": "ryonamin",
+      "database": "mydb",
+      "password": "",
+      "port": "5432"                 
+    }
+  }
+}
