@@ -5,8 +5,8 @@ app.set('port', process.env.PORT || cfg.testServer.port);
 
 let path = import.meta.url;
 path = path.replace('file://','');
-path = path.replace('scripts/dev/testServer.mjs','');
-console.log('path = ' + path);
+path = path.replace('src/dev/testServer.mjs','');
+console.log('path = ' + path + ' --> This must point to the directory containing index.html');
 app.use('/', express.static(path));
 
 app.listen(app.get('port'),()=>{

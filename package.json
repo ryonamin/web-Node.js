@@ -25,6 +25,8 @@
     "react": "",
     "react-devtools": "",
     "react-dom": "",
+    "react-router": "",
+    "react-router-dom": "",
     "superagent": ""
   }
 }
