@@ -1,5 +1,4 @@
 import * as React from "react";        
-import { withRouter } from "react-router";
 
 import { Body } from "./views/body.jsx"; 
 
@@ -17,4 +16,3 @@ class Test2 extends React.Component {
 }
 
 export {Test2};
-export default withRouter(Test2)

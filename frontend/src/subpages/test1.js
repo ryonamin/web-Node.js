@@ -1,11 +1,6 @@
 import * as React from "react";        
-import { withRouter } from "react-router";
 
 class Test1 extends React.Component {
-
-  constructor(props) {
-    super(props);
-  }
 
   render (){
     return (
@@ -19,4 +14,3 @@ class Test1 extends React.Component {
 }
 
 export {Test1};
-export default withRouter(Test1)
