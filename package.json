@@ -18,6 +18,7 @@
   "dependencies": {
     "body-parser": "",
     "config": "",
+    "css-loader": "",
     "express": "",
     "npm-run-all": "",
     "pg": "",
@@ -26,6 +27,9 @@
     "react-devtools": "",
     "react-dom": "",
     "react-router-dom": "",
+    "sass": "",
+    "sass-loader": "",
+    "style-loader": "",
     "superagent": ""
   }
 }
