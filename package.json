@@ -2,8 +2,8 @@
   "scripts": {
     "start": "npm-run-all -p build:frontend start:backend start:testServer",
     "build:frontend": "webpack",
-    "start:backend": "node backend/server.mjs",
-    "start:testServer": "node frontend/src/dev/testServer.mjs"
+    "start:backend": "node --experimental-json-modules backend/server.mjs",
+    "start:testServer": "node --experimental-json-modules frontend/src/dev/testServer.mjs"
   },
   "devDependencies": {
     "@babel/core": "",
@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "body-parser": "",
-    "config": "",
     "css-loader": "",
     "express": "",
     "npm-run-all": "",

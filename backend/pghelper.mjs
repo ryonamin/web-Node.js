@@ -1,5 +1,5 @@
 import pg from 'pg';
-import cfg from 'config'; // see config/default.json
+import cfg from './conf.json'; 
 
 var pgQuery = (sql, values, callback) => {
   console.log(sql, values);

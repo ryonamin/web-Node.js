@@ -1,7 +1,4 @@
 {
-  "testServer":{
-    "port":"3000"
-  },
   "PostgreSQL":{
     "config":{
       "host": "localhost",

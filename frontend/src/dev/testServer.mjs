@@ -1,5 +1,5 @@
 import express from 'express';
-import cfg from 'config'; // see config/default.json
+import cfg from './conf.json';
 const app = express();
 app.set('port', process.env.PORT || cfg.testServer.port);
 

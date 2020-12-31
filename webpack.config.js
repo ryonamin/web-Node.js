@@ -2,12 +2,14 @@ const c = {};
 c.output = {};                              
 c.module = {};                              
 c.module.rules = [];                        
+// js[x]
 c.module.rules[0] = {};                     
 c.module.rules[0].use = [];                 
 c.module.rules[0].use[0] = {};         
 c.module.rules[0].use[0].options = {};         
 c.module.rules[0].use[0].options.presets = []; 
 c.module.rules[0].use[0].options.plugins = []; 
+// css 
 c.module.rules[1] = {};                     
 c.module.rules[1].use = [];                 
 c.module.rules[1].use[0] = {};                 
