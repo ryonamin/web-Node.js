@@ -8,6 +8,8 @@ class Test1 extends React.Component {
       <div>
         <h1>Hello world!</h1>
         <p>A React element can contain single tag. Subcomponents can be added.</p>
+        <img src={'/src/subpages/test1/React-icon.png'}/>
+        <br/>
         <button className={mystyle.button} onClick={ () => { this.props.history.goBack(); } }> 戻る </button>
       </div>
     );

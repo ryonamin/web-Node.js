@@ -2,8 +2,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom"; 
 import {BrowserRouter, Route, Switch, Link} from "react-router-dom";
 
-import {Test1} from "./subpages/test1.js";
-import {Test2} from "./subpages/test2.js";
+import {Test1} from "./subpages/test1/test1.js";
+import {Test2} from "./subpages/test2/test2.js";
 
 class Router extends React.Component {
   render() {
