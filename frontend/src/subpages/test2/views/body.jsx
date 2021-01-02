@@ -1,7 +1,7 @@
 import * as PropTypes from 'prop-types'; 
 import * as React from 'react';           
 import * as request from 'superagent';    
-import cfg from './conf.json';
+import cfg from '../../../../../conf.json';
 
 class Body extends React.Component {
 
@@ -22,7 +22,7 @@ class UserBox extends React.Component {
   }
 
   getUsers() {
-    var url = "http://"+cfg.Server.host+":"+cfg.Server.port+"/get_users";
+    var url = "http://"+cfg.backend.host+":"+cfg.backend.port+"/get_users";
     request.get(url).query({}).end(
       (err, res) => {
         if (err) {
@@ -35,7 +35,7 @@ class UserBox extends React.Component {
   }
 
   handleAddUser(name, mail) {
-    var url = "http://"+cfg.Server.host+":"+cfg.Server.port+"/post_users";
+    var url = "http://"+cfg.backend.host+":"+cfg.backend.port+"/post_users";
     request.post(url).send({name:name, mail:mail}).end(
       (err, res) => {
         if (err) {
