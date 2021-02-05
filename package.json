@@ -20,6 +20,8 @@
     "css-loader": "",
     "express": "",
     "npm-run-all": "",
+    "passport": "",
+    "passport-local": "",
     "pg": "",
     "prop-types": "",
     "react": "",

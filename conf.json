@@ -1,0 +1,19 @@
+{
+  "PostgreSQL":{
+    "config":{
+      "host": "localhost",
+      "user": "ryonamin",
+      "database": "mydb",
+      "port": "5432",
+      "password": ""
+    }
+  },
+  "backend":{
+    "host":"127.0.0.1",
+    "port":"5000"
+  },
+  "testServer":{
+    "host":"127.0.0.1",
+    "port":"3000"
+  }
+}
