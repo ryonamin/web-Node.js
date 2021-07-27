@@ -11,7 +11,9 @@
 ## Notes
 - testServer can be used for local tests. You will find frontend/index.html by accessing http://127.0.0.1:3000 with your web browsers.
 - webpack behaviours are defined in webpack.config.js
-- 
-`npx eslint YOUR_JAVASCRIPT_FILE` would be useful to find problems in your JavaScripts.
+- The following command would be useful to find problems in your JavaScripts.
 eslint behaviours are defined in .eslintrc.js.
+```
+npx eslint YOUR_JAVASCRIPT_FILE
+``` 
 
