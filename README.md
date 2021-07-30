@@ -16,4 +16,9 @@ eslint behaviours are defined in .eslintrc.js.
 ```
 npx eslint YOUR_JAVASCRIPT_FILE
 ``` 
+- Database must be activated in advance if your app uses database.
+```
+pg_ctl start -D /usr/local/var/postgres  // Activate PostgreSQL (Mac)
+pg_ctl stop -D /usr/local/var/postgres   // Deactivate PostgreSQL (Mac)
+```
 
